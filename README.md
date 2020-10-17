@@ -8,20 +8,32 @@ na pós de engenharia e qualidade de software
  Maven, JDK11, SpringBoot , SpringData. 
 
 
-[![License](https://img.shields.io/github/license/rodrigofujioka/papw.svg)](https://opensource.org/licenses/MIT)
-<img src="https://img.shields.io/github/followers/rodrigofujioka?label=Follow&style=plastic">
-<img src="https://img.shields.io/github/forks/rodrigofujioka/papw?color=SSSS&label=Fork&style=plastic">
-<a href="https://github.com/rodrigofujioka/papw/graphs/contributors" alt="Contributors">
-   <img src="https://img.shields.io/github/contributors/rodrigofujioka/papw" /></a>
-<a href="https://github.com/rodrigofujioka/papw/pulse" alt="Activity">
-    <img src="https://img.shields.io/github/commit-activity/m/rodrigofujioka/papw" /></a>  
-  
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=bugs)](https://sonarcloud.io/dashboard?id=rodrigofujioka_papw) 
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=code_smells)](https://sonarcloud.io/dashboard?id=rodrigofujioka_papw) 
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papwb&metric=alert_status)](https://sonarcloud.io/dashboard?id=rodrigofujioka_papw) 
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=rodrigofujioka_papw) 
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=ncloc)](https://sonarcloud.io/dashboard?id=rodrigofujioka_papw) 
-![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=vulnerabilities)
+# Forma de enviar o projeto  
+
+E - mail: posfujioka@gmail.com
+
+Titulo: [EngSoft2020]
+
+[EngSoft2020 Swagger] :  Link para baixar
+[EngSoft2020 Mensageria] :  Link para baixar
+[EngSoft2020 Docker] :  Link para baixar
+[EngSoft2020 SONARJENKINS] :  Link para baixar 
+[EngSoft2020 DAS] :  Link para baixar 
+
+
+
+# Exemplos para auxiliar. 
+
+### RODAR SONAR
+docker run --name sonar -it -p9000:9000 -p50000:50000 rodrigofujioka/jenkins_sonar_postgres
+sudo su sonar
+service sonar start
+
+### RODAR JENKINS
+docker run --name jenkins -it -p8080:8080 rodrigofujioka/jenkins_sonar_postgres
+service jenkins start
+fujioka
+fujioka
 
 
 * Meu instagram: [@rodrigofujioka](https://www.instagram.com/rodrigofujioka) 
