@@ -18,7 +18,7 @@
 	<description>Projeto da disciplina de programação Avançada para web</description>
 
 	<properties>
-		<sonar.sources>src/main/java,src/main/webapp</sonar.sources>
+		<sonar.sources>src/main/java</sonar.sources>
 		<sonar.projectKey>fuji</sonar.projectKey>
 		<sonar.host.url>http://ip172-18-0-85-bu5n8s1qckh000drv4s0-9000.direct.labs.play-with-docker.com</sonar.host.url>
 		<sonar.login>74a4b82764e3de4afb0f42cda2f7d045b7d672ea</sonar.login>
