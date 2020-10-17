@@ -11,8 +11,8 @@
 	</parent>
 	
 	
-	<groupId>com.rodrigofujioka.dev</groupId>
-	<artifactId>webapp</artifactId>
+	<groupId>br.fujideia</groupId>
+	<artifactId>engenharia</artifactId>
 	<version>0.1.1-SNAPSHOT</version>
 	<name>webapp</name>
 	<description>Projeto da disciplina de programação Avançada para web</description>
@@ -20,8 +20,8 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<sonar.projectKey>fujioka</sonar.projectKey>
-		<sonar.host.url>http://ip172-18-0-64-bu5j3tpqckh000c3c8sg-9000.direct.labs.play-with-docker.com</sonar.host.url>
-		<sonar.login>572a7a98ba8c0f73dc8658ac69e49d9df1a22c42</sonar.login>
+		<sonar.host.url>http://ip172-18-0-85-bu5n8s1qckh000drv4s0-9000.direct.labs.play-with-docker.com</sonar.host.url>
+		<sonar.login>f430056bbf981d0bf01c83e08fc16270451c4472</sonar.login>
 	</properties>
 
 	<dependencies>
