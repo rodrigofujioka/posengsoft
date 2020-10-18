@@ -35,14 +35,14 @@ Titulo: [EngSoftANO]
 
 
 ### RODAR SONAR
-docker run --name sonar -it -p9000:9000 rodrigofujioka/sonar:7.9_lts
+docker run --name sonar -it -p9000:9000 rodrigofujioka/jenkins_sonar_postgres
 
 sudo su sonar
 
 service sonar start
 
 ### RODAR JENKINS
-docker run --name jenkins -it -p8080:8080 -p50000:50000 rodrigofujioka/jenkins:jdk11
+docker run --name jenkins -it -p8080:8080 -p50000:50000 rodrigofujioka/jenkins:ubuntu_sdkman
 
 service jenkins start   
 
