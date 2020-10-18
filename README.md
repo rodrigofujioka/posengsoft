@@ -42,7 +42,7 @@ sudo su sonar
 service sonar start
 
 ### RODAR JENKINS
-docker run --name jenkins -it -p8080:8080 -p50000:50000 rodrigofujioka/jenkins:ubuntu_sdkman
+docker run --name jenkins -it -p8080:8080 -p50000:50000 rodrigofujioka/jenkins:ubuntu_sdk
 
 service jenkins start   
 
