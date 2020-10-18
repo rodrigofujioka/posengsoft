@@ -1,40 +1,50 @@
-# Arquitetura de Software 
+# Engenharia de Software Arquitetura de Software e DevOps 
 
 <a href="http://www.rodrigofujioka.com/" target="_blank"><img src="https://github.com/rodrigofujioka/javabasico/blob/master/resources/javaspion.png" alt="Javaspion" /></a>
 </p>
      
-Código de exemplo para práticas
-na pós de engenharia e qualidade de software
+Código de exemplo para práticas na pós de engenharia e qualidade de software
+
  Maven, JDK11, SpringBoot , SpringData. 
 
 
 # Forma de enviar o projeto  
 
-E - mail: posfujioka@gmail.com
+Titulo: [EngSoftANO]
 
-Titulo: [EngSoft2020]
+* [EngSoftANO Swagger] :  Link para baixar
+** Criar modelo com Swagger para o que foi solicitado em sala de aula. 
 
-* [EngSoft2020 Swagger] :  Link para baixar
-* [EngSoft2020 Mensageria] :  Link para baixar
-* [EngSoft2020 Docker] :  Link para baixar
-* [EngSoft2020 SONARJENKINS] :  Link para baixar 
-* [EngSoft2020 DAS] :  Link para baixar 
+* [EngSoftANO Mensageria] :  Link para baixar
+** Implementar projeto com utilização de Mensageria conforme exemplos em sala de aula ou no contexto da sua fábrica. 
 
+* [EngSoftANO Docker] :  Link para baixar
+** Criar imagem e publicar no dockerhub conforme conteúdo visto em sala de aula ou no contexto da sua fábrica. 
 
+* [EngSoftANO SONARJENKINS] :  Link para baixar
+** Preparar cenário utilizando Jenkins e Sonar no contexto do que foi visto em sala de aula. Pode usar docker-composer
 
-# Exemplos para auxiliar. 
+* [EngSoftANO DAS] :  Link para baixar 
+** Documento de Arquitetura de Software, no contexto da sua fábrica de software
+
+* [EngSoftANO TDD_CLEAN_CODE] :  Link para baixar 
+** Corrigir o código deste repositório, conforme as correções apontados pelo SONAR, Cobertura de código Testes Unitários deve ser superior a 70% 
+
+## Ex: O modelo exato e para qual e-mail foi enviado para o representante de turma ou para o grupo da turma.
+ 
+
 
 ### RODAR SONAR
-docker run --name sonar -it -p9000:9000 rodrigofujioka/jenkins_sonar_postgres
+docker run --name sonar -it -p9000:9000 rodrigofujioka/sonar:7.9_lts
 
 sudo su sonar
 
 service sonar start
 
 ### RODAR JENKINS
-docker run --name jenkins -it -p8080:8080 -p50000:50000 rodrigofujioka/jenkins_sonar_postgres
+docker run --name jenkins -it -p8080:8080 -p50000:50000 rodrigofujioka/jenkins:jdk11
 
-service jenkins start
+service jenkins start   
 
 fujioka
 
