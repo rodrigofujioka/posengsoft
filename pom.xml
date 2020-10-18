@@ -20,7 +20,8 @@
 	<properties>		
 		<sonar.projectKey>fujioka</sonar.projectKey>
 		<sonar.host.url>http://ip172-18-0-10-bu66i4hqckh000b1qcdg-9000.direct.labs.play-with-docker.com</sonar.host.url>
-		<sonar.login>802fabcdf350faf08c391fa2ffe0f55769cad8b8</sonar.login>		
+		<sonar.login>802fabcdf350faf08c391fa2ffe0f55769cad8b8</sonar.login>	
+		<sonar.language>java</sonar.language>	
 		<sonar.sources>src/main/java</sonar.sources>
 		<sonar.java.binaries>target/classes</sonar.java.binaries>
 	</properties>
