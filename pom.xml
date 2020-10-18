@@ -18,11 +18,12 @@
 	<description>Projeto da disciplina de programação Avançada para web</description>
 
 	<properties>
-		<sonar.java.binaries>target/classes</sonar.java.binaries>
+		
+		<sonar.projectKey>fujioka</sonar.projectKey>
+		<sonar.host.url>http://ip172-18-0-33-bu5or8pqckh000drv8pg-9000.direct.labs.play-with-docker.com</sonar.host.url>
+		<sonar.login>b44d5c6e5e519fd596f3e8f2547610d452a7a631</sonar.login>		
 		<sonar.sources>src/main/java</sonar.sources>
-		<sonar.projectKey>fuji</sonar.projectKey>
-		<sonar.host.url>http://ip172-18-0-85-bu5n8s1qckh000drv4s0-9000.direct.labs.play-with-docker.com</sonar.host.url>
-		<sonar.login>74a4b82764e3de4afb0f42cda2f7d045b7d672ea</sonar.login>
+		<sonar.java.binaries>target/classes</sonar.java.binaries>
 	</properties>
 
 	<dependencies>
