@@ -25,12 +25,12 @@ Titulo: [EngSoft2020]
 # Exemplos para auxiliar. 
 
 ### RODAR SONAR
-docker run --name sonar -it -p9000:9000 -p50000:50000 rodrigofujioka/jenkins_sonar_postgres
+docker run --name sonar -it -p9000:9000 rodrigofujioka/jenkins_sonar_postgres
 sudo su sonar
 service sonar start
 
 ### RODAR JENKINS
-docker run --name jenkins -it -p8080:8080 rodrigofujioka/jenkins_sonar_postgres
+docker run --name jenkins -it -p8080:8080 -p50000:50000 rodrigofujioka/jenkins_sonar_postgres
 service jenkins start
 fujioka
 fujioka
