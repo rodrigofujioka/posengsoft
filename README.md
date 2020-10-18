@@ -14,11 +14,11 @@ E - mail: posfujioka@gmail.com
 
 Titulo: [EngSoft2020]
 
-[EngSoft2020 Swagger] :  Link para baixar
-[EngSoft2020 Mensageria] :  Link para baixar
-[EngSoft2020 Docker] :  Link para baixar
-[EngSoft2020 SONARJENKINS] :  Link para baixar 
-[EngSoft2020 DAS] :  Link para baixar 
+* [EngSoft2020 Swagger] :  Link para baixar
+* [EngSoft2020 Mensageria] :  Link para baixar
+* [EngSoft2020 Docker] :  Link para baixar
+* [EngSoft2020 SONARJENKINS] :  Link para baixar 
+* [EngSoft2020 DAS] :  Link para baixar 
 
 
 
