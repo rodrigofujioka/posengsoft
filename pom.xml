@@ -17,11 +17,10 @@
 	<name>webapp</name>
 	<description>Projeto da disciplina de programação Avançada para web</description>
 
-	<properties>
-		
+	<properties>		
 		<sonar.projectKey>fujioka</sonar.projectKey>
-		<sonar.host.url>http://ip172-18-0-33-bu5or8pqckh000drv8pg-9000.direct.labs.play-with-docker.com</sonar.host.url>
-		<sonar.login>b44d5c6e5e519fd596f3e8f2547610d452a7a631</sonar.login>		
+		<sonar.host.url>http://ip172-18-0-10-bu66i4hqckh000b1qcdg-9000.direct.labs.play-with-docker.com</sonar.host.url>
+		<sonar.login>802fabcdf350faf08c391fa2ffe0f55769cad8b8</sonar.login>		
 		<sonar.sources>src/main/java</sonar.sources>
 		<sonar.java.binaries>target/classes</sonar.java.binaries>
 	</properties>
